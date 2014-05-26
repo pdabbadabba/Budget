@@ -13,7 +13,7 @@ stream = open("params.yaml", 'r')
 params = yaml.load(stream)
 
 start_date = datetime.strptime(params["start_date"], '%m/%d/%Y').date()
-date_inc = relativedelta(months=6)
+date_inc = relativedelta(months=12)
 current_date = start_date
 
 accounts = {}

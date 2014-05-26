@@ -200,7 +200,7 @@ incomes:
     amount: 40000
     amount_per: year
     frequency: 2wks
-    first_payment: 4/1/2015
+    first_payment: 12/1/2014
     taxes:
       - FEDINC
     allocation: 
@@ -225,7 +225,7 @@ incomes:
 trans_tax:
   - tax_name: "Federal Income, SS, etc."
     tax_id: FEDINC
-    rate: 0.4
+    rate: 0.3538
 
 expenses:
   - expense_name: Cell Phone
@@ -237,7 +237,7 @@ expenses:
 
   - expense_name: Car
     frequency: monthly
-    amount: 15000
+    amount: 20000
     amount_per: monthly
     first_payment: 09/2/2014
     last_payment: 09/2/2014
