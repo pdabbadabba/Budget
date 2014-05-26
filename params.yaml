@@ -1,0 +1,322 @@
+start_date: 5/25/2014
+
+accounts:
+  - account_name: Checking
+    balance: 7400
+    interest_rate: 0.03
+    compounds: yearly
+  - account_name: 401K
+    balance: 0.00
+    interest_rate: 0.08
+    compounds: yearly
+
+
+incomes:
+  - source_name: Paul's Clerkship Salary
+    frequency: 2wks
+    amount: 1779.45
+    amount_per: 2wks
+    first_payment: 6/1/2014
+    last_payment: 7/14/2014
+    taxes:
+      - NONE
+    allocation: 
+      pretax:
+        PASSTHROUGH: 1
+      posttax:
+        Checking: 1
+
+  - source_name: Liz's CCMH Salary
+    frequency: 2wks
+    amount: 1181.13
+    amount_per: 2wks
+    first_payment: 6/1/2014
+    last_payment: 7/31/2014
+    taxes:
+      - NONE
+    allocation: 
+      pretax:
+        PASSTHROUGH: 1
+      posttax:
+        Checking: 1
+
+  - source_name: HWG Clerkship Bonus
+    frequency: year
+    amount: 30000
+    amount_per: year
+    first_payment: 09/2/2014
+    last_payment: 09/2/2014
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG Base
+    frequency: 2wks
+    amount: 115000
+    amount_per: year
+    first_payment: 09/2/2014
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+
+  - source_name: HWG TPBonus 2014-
+    amount: 35250
+    amount_per: year
+    frequency: quarterly
+    first_payment: 10/1/2014
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2015-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2015
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2016-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2016
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2017-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2017
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2018-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2018
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2019-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2019
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2020-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2020
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2021-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2021
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: HWG TPBonus 2022-
+    amount: 11750
+    amount_per: year
+    frequency: quarterly
+    first_payment: 1/1/2022
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        401K: .13
+        PASSTHROUGH: .96
+      posttax:
+        Checking: 1
+
+  - source_name: Liz's Mystery Job
+    amount: 40000
+    amount_per: year
+    frequency: 2wks
+    first_payment: 4/1/2015
+    taxes:
+      - FEDINC
+    allocation: 
+      pretax:
+        PASSTHROUGH: 1
+      posttax:
+        Checking: 1
+
+  - source_name: Laburnum Green
+    amount: 560
+    amount_per: quarterly
+    frequency: quarterly
+    first_payment: 9/1/2014
+    taxes:
+      - NONE
+    allocation: 
+      pretax:
+        PASSTHROUGH: 1
+      posttax:
+        Checking: 1
+
+trans_tax:
+  - tax_name: "Federal Income, SS, etc."
+    tax_id: FEDINC
+    rate: 0.4
+
+expenses:
+  - expense_name: Cell Phone
+    frequency: monthly
+    amount: 120
+    amount_per: monthly
+    first_payment: 06/1/2014
+    account: Checking
+
+  - expense_name: Car
+    frequency: monthly
+    amount: 15000
+    amount_per: monthly
+    first_payment: 09/2/2014
+    last_payment: 09/2/2014
+    account: Checking
+
+  - expense_name: Rent
+    frequency: monthly
+    amount: 1410
+    amount_per: monthly
+    first_payment: 06/1/2014
+    last_payment: 07/1/2014
+    account: Checking
+
+  - expense_name: Rent
+    frequency: monthly
+    amount: 2000
+    amount_per: monthly
+    first_payment: 09/1/2014
+    last_payment: 9/1/2017
+    account: Checking
+
+  - expense_name: Mortgage
+    frequency: monthly
+    amount: 3000
+    amount_per: monthly
+    first_payment: 09/1/2017
+    account: Checking
+
+  - expense_name: Allowance
+    frequency: monthly
+    amount: 1200
+    amount_per: monthly
+    first_payment: 06/1/2014
+    account: Checking
+
+  - expense_name: Student Loans (IBR)
+    frequency: monthly
+    amount: 150
+    amount_per: monthly
+    first_payment: 06/1/2014
+    last_payment: 12/31/2014
+    account: Checking
+
+  - expense_name: Paul's Student Loans (IBR)
+    frequency: monthly
+    amount: 120
+    amount_per: monthly
+    first_payment: 06/1/2014
+    last_payment: 12/31/2014
+    account: Checking
+
+  - expense_name: Liz's Student Loans (IBR)
+    frequency: monthly
+    amount: 130
+    amount_per: monthly
+    first_payment: 06/1/2014
+    last_payment: 7/31/2015
+    account: Checking
+
+  - expense_name: Paul's Student Loans
+    frequency: monthly
+    amount: 2300
+    amount_per: monthly
+    first_payment: 01/1/2015
+    last_payment: 01/1/2025
+    account: Checking
+
+  - expense_name: Liz's Student Loans
+    frequency: monthly
+    amount: 800
+    amount_per: monthly
+    first_payment: 08/1/2015
+    last_payment: 08/1/2025
+    account: Checking
+
+  - expense_name: Miscellaneous
+    frequency: monthly
+    amount: 1581.16
+    amount_per: monthly
+    first_payment: 06/1/2014
+    account: Checking
+     
